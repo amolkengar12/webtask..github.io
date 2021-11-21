@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  height: 90vh;
+  background-image: url(../poor.jpg);
+  text-align: center;
+}
+
+body .page {
+  height: 100vh;
+}
+
+body .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d68b00;
+  color: white;
+  -webkit-box-shadow: 0 3px 10px white;
+          box-shadow: 0 3px 10px white;
+}
+
+body .header a {
+  text-decoration: none;
+  color: white;
+}
+
+body .header h1 {
+  margin-left: 1rem;
+}
+
+body .header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+body .header ul li {
+  margin: .5rem;
+  font-weight: 400;
+  padding: .75rem;
+  border-radius: 3rem;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+body .header ul li:hover {
+  background-color: white;
+  color: orange;
+}
+
+body .content {
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem;
+  padding: 2rem;
+  width: auto;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+body .content h1 {
+  font-size: 3rem;
+}
+
+body .content p {
+  display: block;
+  font-size: 2rem;
+}
+
+body .content .button {
+  margin: 2rem;
+}
+
+body .content button {
+  margin: 1rem;
+  padding: 1rem;
+  font-weight: 600;
+  color: white;
+  font-size: 1.5rem;
+  background-color: orange;
+  border: 3px solid orange;
+  -webkit-box-shadow: 0 0 20px white;
+          box-shadow: 0 0 20px white;
+  border-radius: 2rem;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+body .content button:hover {
+  background-color: white;
+  color: orange;
+}
+
+body .footer {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+  color: white;
+  margin-top: 6.3rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+body .footer p {
+  font-weight: 600;
+}
+
+body .footer img {
+  margin: .5rem;
+}
+/*# sourceMappingURL=main.css.map */
